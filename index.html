@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Reverse a string input task
+console.log("Task 1");
+
+
+let str= "chandu"
+
+for (i=str.length-1; i>=0; i--){
+    console.log(str[i],);
+}
+
+
+
+//  array task
+console.log("Task 2");
+
+
+let numbers = [23,54,67,64,46,95,98];
+
+let evenSum = 0;
+let oddSum = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+        evenSum += numbers[i]; //  evenSum 
+    } else {
+        oddSum += numbers[i]; // oddSum 
+    }
+}
+console.log("Sum of even numbers:", evenSum);
+console.log("Sum of odd numbers:", oddSum);
+
+
+
+
+
+
+//  object task
+console.log("Task 3");
+
+
+const person = {
+  name: 'Alice',
+  age: 30,
+  occupation: 'Engineer'
+};
+
+// Iterate over the object's keys and values using for...of loop
+for (const [key, value] of Object.entries(person)) {
+  console.log(`Key: ${key}, Value: ${value}`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
